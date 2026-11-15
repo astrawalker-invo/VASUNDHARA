@@ -1,4 +1,4 @@
-# ROTATION IQ — Intelligent Crop Rotation & Agricultural Climate Intelligence
+# VASUNDHARA — Intelligent Crop Rotation & Agricultural Climate Intelligence
 
 [![Tests](https://img.shields.io/badge/Tests-51%20Passed-brightgreen)](tests/)
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.14-blue)](backend/)
@@ -14,7 +14,7 @@ ROTATION IQ is a scientific agricultural decision-support system that synthesize
 
 ## Key Features
 
-1. **Pan-Indian Crop Database (53 Crops)**:
+1. **Pan-Indian Crop Database (1253 Crops)**:
    - Organized into 7 primary categories: Cereals & Millets (8), Pulses & Grain Legumes (9), Oilseeds (8), Vegetables (11), Fruits (5), Spices (7), Commercial & Fiber (5).
    - Strict botanical taxonomy: Exactly 12 species belonging to botanical family `Fabaceae` (including leguminous oilseeds soybean and groundnut, and spice fenugreek) have verified symbiotic BNF net soil credits ($kg\ N/ha$); all 41 non-legumes strictly output `null/N/A`.
 2. **Dynamic Rotation Generation & Multi-Criteria Scoring**:
