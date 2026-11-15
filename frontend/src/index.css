@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+html, body, #root { height: 100%; margin: 0; }
+body { background: #f4f0e6; color: #1c1915; font-family: "Segoe UI", sans-serif; }
+
+.leaflet-container { height: 100%; width: 100%; background: #c9c2b2; font-family: inherit; }

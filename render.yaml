@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: rotation-iq-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r backend/requirements.txt"
+    startCommand: "uvicorn backend.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: PYTHONPATH
+        value: "."
+      - key: ROTATION_IQ_WARM_CACHE
+        value: "1"
+      - key: CORS_ORIGINS
+        value: "https://rotation-iq.vercel.app,http://localhost:5173"
+      - key: ENVIRONMENT
+        value: production
